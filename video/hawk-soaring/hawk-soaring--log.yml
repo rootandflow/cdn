@@ -1,0 +1,4 @@
+raw: IMG_3359.MOV
+preset: veryslow
+tune: zerolatency
+crf: 28
