@@ -1,4 +1,14 @@
 raw: IMG_3359.MOV
-preset: veryslow
-tune: zerolatency
-crf: 28
+mp4:
+  audio: none
+  encoding: "h.264"
+  preset: veryslow
+  tune: zerolatency
+  crf: 28
+webm:
+  audio: none
+  encoding: "vp9"
+  passes: 2
+  bitrate: "1000k"
+  tile-columns: 6
+  lag-in-frames: 25
