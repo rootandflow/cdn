@@ -12,3 +12,7 @@ webm:
   bitrate: "1000k"
   tile-columns: 6
   lag-in-frames: 25
+ogg:
+  audio: none
+  qscale:
+    video: 5
