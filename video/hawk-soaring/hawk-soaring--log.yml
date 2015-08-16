@@ -2,9 +2,12 @@ raw: IMG_3359.MOV
 mp4:
   audio: none
   encoding: "h.264"
-  preset: veryslow
-  tune: zerolatency
-  crf: 28
+    preset:
+      speed: veryslow
+      tune: zerolatency
+      profile: baseline
+      level: "3.0"
+    crf: 27
 webm:
   audio: none
   encoding: "vp9"
@@ -12,7 +15,8 @@ webm:
   bitrate: "1000k"
   tile-columns: 6
   lag-in-frames: 25
-ogg:
+ogv:
   audio: none
+  encoding: "theora"
   qscale:
-    video: 5
+    video: 7
